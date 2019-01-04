@@ -1,0 +1,54 @@
+
+button[class='vjs-big-play-button'] {
+    height: 1.5em !important;
+    width: 3em !important;
+    left: 50% !important;
+    top: 50% !important;
+    margin-left: -1.5em;
+    margin-top: -0.75em;
+    border-color: rgb(18, 212, 11) !important;
+}
+.diy1{
+    color: #ff1408;
+}
+.vjs-hqcat.video-js {
+    color: rgb(255, 248, 221);
+}
+
+.vjs-hqcat:hover .vjs-big-play-button,
+.vjs-hqcat .vjs-big-play-button:focus {
+    border-color: rgb(212, 211, 30);
+}
+
+.vjs-hqcat .vjs-volume-level,
+.vjs-hqcat .vjs-play-progress,
+.vjs-hqcat .vjs-slider-bar {
+    background: rgb(149, 248, 218);
+}
+
+
+
+/*控制栏字体*/
+.vjs-hqcat .vjs-control-bar {
+    font-size:small;
+}
+
+.vjs-hqcat .vjs-menu-item {
+    font-size: small;
+}
+
+.vjs-hqcat li.vjs-selected {
+    background-color:rgb(0, 188, 212);
+}
+
+.vjs-hqcat .vjs-playback-rate-value {
+    font-size: small;
+    line-height: 3em;
+}
+
+/*完善倍速选择器样式*/
+.vjs-menu li.vjs-selected,
+.vjs-menu li.vjs-selected:focus,
+.vjs-menu li.vjs-selected:hover {
+    background-color: #2B333F;
+    color: rgb(0, 188, 212); }
